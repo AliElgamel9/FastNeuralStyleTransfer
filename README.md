@@ -17,16 +17,17 @@ My approach is depended on 2 main papers:
 &emsp;the second paper authors are Xun Huang, Serge Belongie ([paper link](https://arxiv.org/abs/1703.06868)). Uses third approach. read thier paper for more information about how AdaIN layer works.   
   
 My results:  
+results from training dataset  
+![Image](results/1.png)  
+![Image](results/3.png)  
 
-![Image](results/1.jpg)
-![Image](results/2.jpg)
-![Image](results/3.jpg)
-![Image](results/4.jpg)
-![Image](results/5.jpg)
-![Image](results/6.jpg)
-![Image](results/7.jpg)
-![Image](results/8.jpg)
+results from custom dataset  
+![Image](results/5.png)  
+![Image](results/7.png)  
   
+result of high resolution image 2000*1400  
+![Image](results/8.png)  
+    
 - My attempt to make fast neural style transfer for low end devices where the memory usage is limited like mobile devices which its hard to use large models on it like VGG19.  
    
 What i have done so far:  
