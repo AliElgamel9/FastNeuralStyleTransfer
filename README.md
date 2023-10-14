@@ -2,7 +2,9 @@
 
 Style transfer is a technique used in the field of computer vision and image processing that aims to apply the artistic style of one image to another while preserving the content. It involves the process of combining the content of one image with the style of another, creating an output image that reflects the content of the first image but appears to be created in the style of the second image.
 
+
 In this process, the content of an input image is typically represented by the arrangement of objects and their spatial relationships, while the style is characterized by textures, colors, and visual patterns that give the image its artistic appearance. By separating and recombining the content and style representations of different images, style transfer techniques can generate visually appealing compositions that blend the content information with the artistic characteristics of the style image.
+
 
 There is 3 approches to stylize an image:
 
@@ -25,7 +27,7 @@ My approach is depended on 2 main papers:
 My results
 
 
-My attempt to make fast neural style transfer for low end devices where the memory usage is limited like mobile devices which its hard to use large models on it like VGG19.
+- My attempt to make fast neural style transfer for low end devices where the memory usage is limited like mobile devices which its hard to use large models on it like VGG19.
 
 
 What i have done so far:
@@ -36,6 +38,7 @@ What i have done so far:
 
 
 Final words:
+
 I understand the current results are unsatisfactory and not suitable for production or any practical use. However, as a beginner, I perceive it as a promising start, and I am determined to refine the model until achieving satisfactory outcomes. If you have any tips or suggestions for improvement, please feel free to share them with me.
 
 
