@@ -27,8 +27,8 @@ results from custom dataset
   
 result of high resolution image 2000*1400  
 ![Image](results/8.png)  
-    
-- My attempt to make fast neural style transfer for low end devices where the memory usage is limited like mobile devices which its hard to use large models on it like VGG19.  
+      
+My attempt to make fast neural style transfer for low end devices where the memory usage is limited like mobile devices which its hard to use large models on it like VGG19.  
    
 What i have done so far:  
 &emsp;- used MobileNetv2 model as encoder from keras that pretrained on ImageNet dataset.  
