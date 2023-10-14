@@ -36,8 +36,6 @@ What i have done so far:
 
 
 Final words:
-
-
 I understand the current results are unsatisfactory and not suitable for production or any practical use. However, as a beginner, I perceive it as a promising start, and I am determined to refine the model until achieving satisfactory outcomes. If you have any tips or suggestions for improvement, please feel free to share them with me.
 
 
