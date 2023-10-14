@@ -16,18 +16,26 @@ My approach is depended on 2 main papers:
   
 &emsp;the second paper authors are Xun Huang, Serge Belongie ([paper link](https://arxiv.org/abs/1703.06868)). Uses third approach. read thier paper for more information about how AdaIN layer works.   
   
-My results
+My results:  
 
+![Image](results/1.jpg)
+![Image](results/2.jpg)
+![Image](results/3.jpg)
+![Image](results/4.jpg)
+![Image](results/5.jpg)
+![Image](results/6.jpg)
+![Image](results/7.jpg)
+![Image](results/8.jpg)
   
 - My attempt to make fast neural style transfer for low end devices where the memory usage is limited like mobile devices which its hard to use large models on it like VGG19.  
    
 What i have done so far:  
-&emsp;- used MobileNetv2 model as encoder from keras that pretrained on ImageNet dataset.
-&emsp;- create a mirror network for the MobileNetv2 model, to be used as deocder.
-&emsp;- used datasets from kaggle one for content images, and one for style images.
-&emsp;- prepaired the environment and start training the decoder.
-
-
+&emsp;- used MobileNetv2 model as encoder from keras that pretrained on ImageNet dataset.  
+&emsp;- create a mirror network for the MobileNetv2 model, to be used as deocder.  
+&emsp;- used datasets from kaggle one for content images, and one for style images.  
+&emsp;- prepaired the environment and start training the decoder.  
+  
+  
 Final words:  
 &emsp;I understand the current results are unsatisfactory and not suitable for production or any practical use. However, as a beginner, I perceive it as a promising start, and I am determined to refine the model until achieving satisfactory outcomes. If you have any tips or suggestions for improvement, please feel free to share them with me.  
   
